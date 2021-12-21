@@ -11,7 +11,7 @@ for ii in range(9):
   yu = int(input("0～8:"))
   panel[yu] = 1
   while True:
-    pc = random.randint(1,8)
+    pc = random.randint(1,10)
     if panel[pc]==0:
       panel[pc] = 2
       break;
